@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+.timer-setup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #323232;
+    border-radius: 10px;
+}
+
+.timer-setup label {
+    font-size: 18px;
+}
+
+.set-time-input input {
+    width: 60px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.timer-setup button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+.timer-setup button:hover {
+    background-color: #ffaa00;
+}
+
+.current-timers {
+    margin-top: 20px;
+}
+
+#timers-list {
+    padding: 10px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+.timer {
+    margin: 10px 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer span {
+    font-size: 18px;
+}
+
+.timer .delete-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.timer .delete-btn:hover {
+    background-color: #ffaa00;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Multiple Timers App</h1>
+        <div class="timer-setup">
+            <div class="set-time">
+                <label for="hours">Set Time :</label>
+            </div>
+            <div class="set-time-input">
+                <input type="number" id="hours" placeholder="hh" min="0" max="23"><span id="colon">:</span>
+                <input type="number" id="minutes" placeholder="mm" min="0" max="59"><span id="colon">:</span>
+                <input type="number" id="seconds" placeholder="ss" min="0" max="59">
+            </div>
+            <div class="button">
+                <button id="set-timer">Set</button>
+            </div>
+        </div>
+        <div class="current-timers">
+            <h2>Current Timers</h2>
+            <div id="timers-list">
+                <p id="no-timers-message">You have no timers currently!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
